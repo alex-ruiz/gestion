@@ -21,3 +21,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/profile', 'profile\ProfileController@ShowProfile')->name('profile');
+
+Route::get('/instrumentacion', 'forms\FormsgcController@showInstrumentacion')->name('instrumentacion');

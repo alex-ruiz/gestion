@@ -1,12 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\profile;
+namespace App\Http\Controllers\forms;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use DB;
 
-class ProfileController extends Controller
+class FormsgcController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -24,9 +23,8 @@ class ProfileController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-     public function showProfile()
+     public function showInstrumentacion()
      {
-       //$profile = DB::table('cursos')->get();
-       return view('profile.profile');//, ['profile' => $profile]);
+       return view('formsgc.instrumentacion');
      }
 }

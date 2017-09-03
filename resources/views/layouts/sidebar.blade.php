@@ -16,10 +16,10 @@
 
          </li>
          <li>
-             <a href="#">Home</a>
+             <a href="/home">Home</a>
          </li>
          <li>
-             <a href="#">About</a>
+             <a href="/instrumentacion">Instrumentacion</a>
          </li>
          <li>
              <a href="#">Events</a>
